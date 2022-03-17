@@ -9,7 +9,7 @@ body{
 header{
   background-color: rgb(40, 155, 184);
   border-top: 10px rgb(81, 85, 88);
-  overflow: auto;
+  overflow: hidden;
 }
 h1{
   text-transform: uppercase;
@@ -27,6 +27,10 @@ h3.Aqua{
   color: rgb(40, 155, 184);
   font-size: 22px;
   font-weight: bold;
+}
+h3.Secondpage{
+  font-weight: bolder;
+  font-size: 25px;
 }
 h4{
   font-weight: normal;
@@ -121,7 +125,7 @@ main{
   padding-left: 12%;
   justify-content: flex-start;
   padding-top: 40px;
-  padding-bottom: 170px;
+  padding-bottom: 75px;
 }
 p{
   font-size: 17px;
